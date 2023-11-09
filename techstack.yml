@@ -1,0 +1,180 @@
+repo_name: rbanffy/sorcha
+report_id: aa74ab3729f571c036c3924cfa0a6a04
+repo_type: Public
+timestamp: '2023-11-09T12:12:05+00:00'
+requested_by: mschwamb
+provider: github
+branch: main
+detected_tools_count: 15
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: Matplotlib
+  description: A plotting library for the Python programming language
+  website_url: http://matplotlib.org
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg
+  detection_source: docs/requirements.txt
+  last_updated_by: Meg Schwamb
+  last_updated_on: 2022-08-11 11:14:08.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/testing-and-coverage.yml"
+  last_updated_by: Drew Oldag
+  last_updated_on: 2023-07-05 19:06:45.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source: pyproject.toml
+  last_updated_by: Conor MacBride
+  last_updated_on: 2022-06-13 16:49:27.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source: docs/requirements.txt
+  last_updated_by: Meg Schwamb
+  last_updated_on: 2023-09-28 21:02:39.000000000 Z
+- name: IPython
+  description: A command shell for interactive computing in multiple programming languages
+  website_url: http://ipython.org/index.html
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Shells
+  image_url: https://img.stackshare.io/service/4477/820a0bb9a44fe5a1d640993ab1e6fd84_400x400.png
+  detection_source: docs/requirements.txt
+  last_updated_by: Drew Oldag
+  last_updated_on: 2023-07-06 22:15:34.000000000 Z
+- name: NumPy
+  description: Fundamental package for scientific computing with Python
+  website_url: http://www.numpy.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source: docs/requirements.txt
+  last_updated_by: Meg Schwamb
+  last_updated_on: 2022-08-11 11:14:08.000000000 Z
+- name: SciPy
+  description: Scientific Computing Tools for Python
+  website_url: http://www.scipy.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/3303/scipyshiny_small.png
+  detection_source: docs/requirements.txt
+  last_updated_by: Meg Schwamb
+  last_updated_on: 2022-08-11 11:14:08.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: astropy
+  description: Community-developed python astronomy tools
+  package_url: https://pypi.org/astropy
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20016/default_70556f9333e0a39c148cac0c36ca24235943f270.png
+  detection_source: pyproject.toml
+  last_updated_by: Drew Oldag
+  last_updated_on: 2023-07-06 22:15:34.000000000 Z
+- name: numba
+  description: Compiling Python code using LLVM
+  package_url: https://pypi.org/numba
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20053/default_9f5ca9b3fcd68c068d4026e56ab738e8e865691f.png
+  detection_source: pyproject.toml
+  last_updated_by: Drew Oldag
+  last_updated_on: 2023-09-06 22:00:22.000000000 Z
+- name: pandas
+  description: Powerful data structures for data analysis
+  package_url: https://pypi.org/pandas
+  version: '2.0'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19837/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Meg Schwamb
+  last_updated_on: 2023-09-26 21:33:27.000000000 Z
+- name: tables
+  description: Hierarchical datasets for Python
+  package_url: https://pypi.org/tables
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source: pyproject.toml
+  last_updated_by: Mario Juric
+  last_updated_on: 2023-10-04 19:29:50.000000000 Z
+- name: tqdm
+  description: Fast, Extensible Progress Meter
+  package_url: https://pypi.org/tqdm
+  license: MPL-2.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19846/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source: pyproject.toml
+  last_updated_by: Drew Oldag
+  last_updated_on: 2023-09-06 22:00:22.000000000 Z
